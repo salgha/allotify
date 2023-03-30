@@ -1,0 +1,74 @@
+#MainMenu {
+  visibility: hidden;
+}
+
+button[title="View fullscreen"] {
+  visibility: hidden;
+}
+
+button[title="View fullscreen"]:hover {
+  visibility: hidden;
+}
+
+table.report {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+col.labels {
+  width:45%;
+}
+
+tr.record {
+  border: none;
+}
+
+td.header {
+  border: none;
+  text-align: right;
+}
+
+td.section-labels {
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid;
+  border-top: 1.5px solid;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+td.section-values {
+  
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid;
+  border-top: 1.5px solid;
+  font-weight: bold;
+  text-align: right;
+}
+
+td.subsection-labels {
+  border-left: none;
+  border-right: none;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+td.subsection-values {
+  border-left: none;
+  border-right: none;
+  font-weight: bold;
+  text-align: right;
+}
+
+td.item-labels {
+  border-left: none;
+  border-right: none;
+  padding-left: 40px;
+}
+
+td.item-values {
+  border-left: none;
+  border-right: none;
+  text-align: right;
+}
